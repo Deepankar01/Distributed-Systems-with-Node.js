@@ -16,6 +16,15 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "recipe-api-https",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/recipe-api/producer-https-basic.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "web-api",
             "skipFiles": [
                 "<node_internals>/**"
